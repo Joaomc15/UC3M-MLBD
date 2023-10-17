@@ -1,7 +1,10 @@
 # UC3M-MLBD
-Repo for UC3M's ML for Business Decision Making course
 
 **Authors**: João M. Carvalho, George Y. Fang
+
+Repo for UC3M's ML for Business Decision Making course
+
+**NIA number**: 56
 
 ## Project 1: Predicting Solar Energy Production with scikit-learn
 
@@ -17,3 +20,11 @@ Participants will use meteorological data forecasted by GFS to train a machine l
 * Two Simple models (KNN and Tree) and training and evaluation process description in ipynb
 * One Final Model (Using Joblib) (Advanced Model - Random Forest / SVM) and training and evaluation process description in ipynb
 * One .csv file with final predictions
+
+### Part 1: Exploratory Data Analysis
+We are conducting a simplified EDA to do the following:
+* Check for the presence of categorical variables.
+* Check for missing values and decide on a strategy to handle them.
+* Identify and handle constant columns (columns with the same value for all records).
+* Explore summary statistics and distributions of the target variable 'energy'.
+* Visualize relationships between features and the target variable using plots.
